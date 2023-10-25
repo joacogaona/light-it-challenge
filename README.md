@@ -1,27 +1,24 @@
-# React + TypeScript + Vite
+🚀 Frontend Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Setting up and Running the Project
 
-Currently, two official plugins are available:
+1.Installation: Ensure you have Node.js installed.
+2.Dependencies: Run npm install or yarn install to install the necessary packages from the package.json file.
+3.Starting the Development Server: Use the script npm run dev or yarn dev to start the Vite development server on port 3000.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack:
 
-## Expanding the ESLint configuration
+Bundling & Development: Vite
+UI Framework: React (with TypeScript)
+State Management & Server Data Synchronization: React Query
+Form Handling: React Hook Form
+Styling: TailwindCSS
+Image Upload: Cloudinary
+Drag & Drop File Handling: react-drag-drop-files
+International Phone Input: react-international-phone
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+💡 Highlights:
+Vite: An incredibly fast frontend build tool, optimized for React and TypeScript. Provides out-of-the-box support for ES modules.
+React Query: Manages and synchronizes server state in React applications. It offers built-in caching, background fetching, and more.
+Cloudinary Integration: A cloud service that offers a solution to automatically manage, optimize, and deploy images and videos in applications.
+TailwindCSS: A utility-first CSS framework for rapid UI development. Integrated with PostCSS for processing and Autoprefixer for ensuring CSS compatibility across browsers.
